@@ -114,7 +114,7 @@ PC用のスタイル
   #nav-sp > a:active {
     color: #ffffff;
   }
-  #nav-sp > a:menu {
+  #nav-sp > .menu {
     text-decoration: none;
     display: block;
     margin: 20px 0;
