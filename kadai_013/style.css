@@ -21,9 +21,11 @@ PC用のスタイル
     min-width: 960px;
     margin: 0 auto 0 auto;
   }
+  
   #menu-sp {
     display: none;
   }
+
   #nav-sp {
     display: none;
   }
@@ -52,7 +54,7 @@ PC用のスタイル
     color: #0d0d0d;
     text-decoration: underline;
   }
-  #nav-pc > :active{
+  #nav-pc > a:active{
     color: #0d0d0d;
   }
 }
@@ -109,7 +111,7 @@ PC用のスタイル
   #nav-sp > .menu {
     text-decoration: none;
     display: block;
-    margin: 20px 0;
+    margin: 0 20px 0 20px;
     height: 44px;
     font-size: 16px;
     background-image: url("images/arrow.png");
